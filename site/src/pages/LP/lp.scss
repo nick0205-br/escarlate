@@ -12,6 +12,9 @@
     background: #A83F37;
     }
 
+    .imglp{
+        width: 50%;
+    }
     //iphone se
     @media only screen and (max-width: 480px) and (min-width:320px){
        .cabeçalho{ 
@@ -434,7 +437,7 @@
            
             .dois{
             position: absolute;
-            width: 122px;
+            width: 140px;
             height: 42px;
             left: 1013px;
             margin-top: -1.6em;
@@ -453,6 +456,17 @@
                 }
             
             .bt-login-txt, .bt-cadastro-txt{
+            font-family: 'CinzelDecorative-Black';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 13px;
+            line-height: 20px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            }
+
+
+            .bt-cadastro-txt{
             font-family: 'CinzelDecorative-Black';
             font-style: normal;
             font-weight: 900;
@@ -772,7 +786,7 @@
    
     .bt-cadastro{
     position: absolute;
-    width: 122px;
+    width: 170px;
     height: 42px;
     left: 1122px;
     margin-top: -1.6em;
@@ -781,7 +795,7 @@
     }
     .bt-cadastro:hover{
         position: absolute;
-        width: 124px;
+        width: 174px;
         height: 46px;
         left: 1122px;
         margin-top: -1.8em;
@@ -946,11 +960,10 @@
     
     .desc-lp{
         display: flex;
-        justify-content: space-around;
+        margin-left: 18%;
         flex-direction: row;
         padding-right: 5rem;
         padding-top: 5rem;
-        margin-left: 9em;
         
     }
     
@@ -1241,7 +1254,7 @@
     .txt-f8{
         color: #FA0000;
         width: 40vh;
-        
+        margin-bottom: 2em;
 
         
      }
@@ -1249,6 +1262,7 @@
         width: 35vh;
         height: 35vh;
         align-items: center;
+        margin-bottom: 2em;
      }
 
  }

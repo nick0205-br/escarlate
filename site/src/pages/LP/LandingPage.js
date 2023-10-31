@@ -26,7 +26,7 @@ export default function LandingPage() {
          <motion.img src={'../../assets/images/Group 1.png'} width={200} height={60}
             whileHover={{ scale: 1.3 }}
             onHoverStart={e => {}}
-            onHoverEnd={e => {}} class="modo img"/>
+            onHoverEnd={e => {}} />
 
             <div className="botao-cabeçalho-lp">
            < Link to = '/login' >
@@ -67,7 +67,7 @@ export default function LandingPage() {
          </div>
          </div>
 
-         <motion.img src={'../../assets/images/zyro-image.png'} width={500}
+         <motion.img src={'../../assets/images/zyro-image.png'} className="imglp"
          animate={{rotate:360}}
          transition={{ease:"linear", delay:0, duration:2, type:"spring"}}
          />
@@ -177,7 +177,7 @@ export default function LandingPage() {
       <div className="txtf5">
       <h1 className="tit-f5"> Sobre nós: </h1>
       <p className="txt-f50"> 
-      Fundada em 2022, a Escarlate nasceu de uma conversa entre amigos que que queriam resgatar os bons tempos do Rock N' Roll. A Escarlate é uma produtora musical especializada no rock e suas vertentes, que organiza shows e turnês por todo o Brasil, com foco no estado de São Paulo e redondezas
+      Fundada em 2022, a Escarlate nasceu de uma conversa entre amigos que queriam resgatar os bons tempos do Rock N' Roll. A Escarlate é uma produtora musical especializada no rock e suas vertentes, que organiza shows e turnês por todo o Brasil, com foco no estado de São Paulo e redondezas
       </p>
       </div>
      

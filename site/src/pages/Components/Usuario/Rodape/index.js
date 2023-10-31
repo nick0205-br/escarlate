@@ -31,7 +31,7 @@ export default function Rodape(){
              <Link to='/' href='/LandingPage'>
                 <img className='logo' src={'../../assets/images/logoRdp.png'} width={310} />
              </Link>
-               <img className="rds" src={'../../assets/images/redessociais.png'} />
+               <img className="rds" src={'../../assets/images/redessociais.png'} width={200} height={70}/>
             </div>
         </footer>
     )
