@@ -1,0 +1,87 @@
+.cad-prod{
+    display: flex;
+    flex-direction: row;
+    background-color: #1f1f1f;
+    justify-content: center;
+    height: 100vh;
+
+    .nav-cad-prod{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-nav-cad-prod{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        width: 70vw;
+        margin-top: 9em;
+        padding-left: 10em;
+    }
+
+    .input-cad-prod{
+        width: 20vw;
+        max-width: 15rem;
+        height: 3.5vh;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        font-family: 'Poppins-Regular';
+    }
+   
+    .aside-cad-prod{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Poppins-Regular';
+        color: #fff;
+        padding-left: 20rem;
+        margin-top: -5em;
+
+    }
+
+    .tit-cad-prod{
+        font-family: 'Poppins-Regular';
+        color: #fff;
+    }
+    .cat-selecionada {
+        font-size: .7em;
+        background-color: #672dc3;
+        padding: .5em 1em;
+        margin: .5em 5px;
+        color: #fff;
+        border-radius: 1em;
+    }
+
+    .form_input{
+        position: relative;
+        visibility: hidden;
+    }
+
+   
+    .botao-adm-2{
+        border: 1px solid rgb(232, 68, 68);
+        border-radius: 20px;
+        padding: 6px;
+        width: 8vw;
+        height: 5vh;
+        align-items: center;
+        background-color: #1f1f1f;
+        font-family: 'Poppins-Regular';
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .imagem-cadastro-produto{
+        margin-bottom: 5em;
+    }
+
+    .align-bt-cadprod{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+        align-items: center;
+        width: 18vw;
+    }
+
+}

@@ -1,0 +1,60 @@
+.adm-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    height: 100vh;
+    position: fixed;
+    text-decoration: none;
+
+    .logo-cad-prod{
+        margin-top: 9rem;
+    }
+    
+
+    .menu-adm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #fff;
+    width: 15vw;
+    height: 100vh;
+    align-items: center;
+    }
+
+    .menu-itens{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: 'Poppins-Regular';
+        text-decoration: none;
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .align-itens-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 8rem;
+        align-items: center;
+    }
+
+    .link-config-txt{
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .align-itens-menu:hover{
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+    background-color: rgb(203, 59, 59);
+    width: 8rem;
+    }
+
+    .exit-icon{
+        margin-bottom: 3em;
+    }
+}

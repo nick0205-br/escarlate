@@ -1,0 +1,93 @@
+.endereço{
+    background-color: #1f1f1f;
+
+       .align-row-endereco{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 90vh;
+        justify-content: space-around;
+       } 
+
+       .align-center-input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+       } 
+
+       .inputs-sec{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: space-evenly;
+        
+        height: 80vh;
+        color: #fff;
+        font-family: 'Arya-Regular';
+        font-weight: 100;
+    }
+
+    .align-inputs-row-cpf{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 37vw;
+    }
+
+    .align-inputs-row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 50vw;
+    }
+
+    .meus-enderecos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        color: #fff;
+        font-family: 'Poppins-Regular';
+        font-weight: 100;
+        border: 3px solid #A83F37;
+        width: 30vw;
+        height: 25vh;
+    }
+
+    .align-meus-enderecos{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+        height: 90vh;
+    }
+
+        .input-M{
+            border-radius: 5px;
+            width: 30rem;
+            height: 1.4rem;
+            border: 2px #1f1f1f;
+        }
+
+        .input{
+            border-radius: 5px;
+            height: 1.4rem;
+            width: 13rem;
+            border: 2px #1f1f1f;
+        }
+
+        .nome-input{
+            font-family: 'Poppins-Regular';
+            font-weight: 100;
+            
+        }
+
+        .bt-endereço{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 30vw;
+        }
+}

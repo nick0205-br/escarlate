@@ -1,0 +1,110 @@
+.nossosartistas{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    align-items: center;
+
+    .align-artista-nome-foto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+
+    .nome-artista{
+        align-items: center;
+        text-align: center;
+        margin-left: 10rem;
+        margin-top: 1rem;
+        font-family: 'Cinzel-Regular';
+        font-size: 1.3rem;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        height: 10vh;
+        justify-content: space-around;
+        background-color: #A83F37;
+        align-items: center;
+    }
+
+    .faixa1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 100%;
+        margin-right: 10em;
+
+    }
+    .artistaimg{
+        margin-left: 10em;
+        border-radius: 100px;
+        min-width: 200px;
+        height: 200px;
+        max-width: 210px;
+        width: 100%;
+
+        object-fit: cover;
+    }
+    
+    .img{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .artistas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 30vw;
+        border-radius: 60px;
+    }
+
+    .align-prod{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .h1-nossosartistas{
+        font-family: 'CinzelDecorative-Regular';
+        text-transform: capitalize;
+        color: #ffff;
+        letter-spacing: 3px;
+        font-weight: 100;
+        font-size: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.categorias{
+    font-family: 'Cinzel-Regular';
+    color: rgb(168, 63, 55);
+    font-weight: 100;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+}
+

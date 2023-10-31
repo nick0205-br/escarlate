@@ -1,0 +1,122 @@
+@font-face {
+    font-family:'Cinzel-Regular';
+    src: url(./.././public/assets/fonts/Cinzel-Regular.otf);
+}
+
+@font-face {
+    font-family:'CinzelDecorative-Regular';
+    src: url(./.././public/assets/fonts/CinzelDecorative-Regular.otf);
+}
+
+
+@font-face {
+    font-family:'CinzelDecorative-Black' ;
+    src: url(./.././public/assets/fonts/CinzelDecorative-Black.otf);
+}
+
+@font-face {
+    font-family:'CinzelDecorative-Bold' ;
+    src: url(./.././public/assets/fonts/CinzelDecorative-Bold.otf);
+}
+
+@font-face {
+    font-family:'Poppins-Regular' ;
+    src: url(./.././public/assets/fonts/Poppins-Regular.otf);
+}
+
+@font-face {
+    font-family:'Poppins-Medium' ;
+    src: url(./.././public/assets/fonts/Poppins-Medium.otf);
+}
+@font-face {
+    font-family:'Poppins-SemiBold' ;
+    src: url(./.././public/assets/fonts/Poppins-SemiBold.otf);
+
+}
+@font-face {
+    font-family:'Arya-Regular' ;
+    src: url(./.././public/assets/fonts/Arya-Regular.ttf);
+
+}
+
+@font-face {
+    font-family:'Gothic-Regular' ;
+    src: url(./.././public/assets/fonts/Gothic-Regular.ttf);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    justify-content: space-around;
+    background-color: #A83F37;
+    align-items: center;
+
+    .sub-header-1{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-header-conf{
+        width:10em;
+    }
+
+    .nome-page{
+        font-family: 'Cinzel-Regular';
+        font-size: 25px;
+        padding-left: 1em;
+        padding-bottom: 10px;
+    }
+
+   
+
+    .sub-header-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 6em;
+    }
+
+    .input-busca{
+        height: 5vh;
+        width: 40vw;
+        border: 1px solid #160042;
+        border-radius: 20px;
+        background: transparent;
+        text-align: center;
+        font-family: 'Poppins-Regular';
+        font-size: 30px;
+        color: #160042;
+        outline: 0;
+    }
+
+    .lupa-conf{
+        width: 25px;
+        border: none;
+        background: transparent;
+        position: absolute;
+        margin-top: 0.4vh;
+        margin-left: 0.5em;
+    }
+
+    .lupa{
+        width: 25px;
+    }
+
+    .conf-img-header{
+        width: 3.5em;
+        height: 3.5em;
+    }
+}
+
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+input{
+    outline: none;
+}
+

@@ -1,0 +1,29 @@
+.div-cartao{
+    display: flex;
+    flex-direction: column;
+    
+    .ifos-cartao{
+        display: flex;
+        height: 35vh;
+        width: 45vw;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5em;
+        border: 2px #A83F37 solid;
+    }
+
+    .txt-conf-cardcart{
+        border: #A83F37 1px solid;
+        width: 3.5rem;
+        
+        text-align: center;
+    }
+
+    .BT-CARD{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

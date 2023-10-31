@@ -1,0 +1,80 @@
+.produtos-adm{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 9em;
+    min-height: 100vh;
+    background-color: #1f1f1f;  
+    
+    .content-produtos-adm{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 6em;
+        height: 100%;
+    }
+
+    .nav-cad-prod{
+        display: flex;
+        justify-content: center;
+        padding-left: 5em;
+        width: 20vw;
+    }
+
+    .tit-produtos{
+        font-family: 'Poppins-Regular';
+        color:#fff;
+       padding-top: 13px
+    }
+
+    .align-itens-produtos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conf-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70vw;
+    height: 50vh;
+
+    .cardpah{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 1px solid rgb(241, 75, 75);
+        align-items: center;
+        width: 70vw;
+        height: 30vh;
+    }    
+    
+       
+    .txt-cardpah{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .txt-conf-cardpah{
+        color: #fff;
+        font-family: 'Poppins-Regular';
+        line-height: 35px;
+        text-transform: none;
+    }
+
+    .txt-conf-cardpah-underline{
+        color: #fff;
+        font-family: 'Poppins-Regular';
+        text-decoration: underline;
+        text-transform: none;
+    }
+
+    .bt-card-pah{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 15vh;
+    }
+}
+}

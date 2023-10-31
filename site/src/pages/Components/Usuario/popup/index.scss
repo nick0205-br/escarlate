@@ -1,0 +1,129 @@
+.pop-up{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+width: 50vw;
+color: #fff;
+
+
+
+.align-itens-popup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 65vh;
+}
+
+.align-itens-2-popup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+}
+.borda{
+    border: 1px solid #A83F37;
+    width: 25vw;
+    margin-left: 2em;
+}
+
+.align-itens-3-popup{
+    display: flex;
+    flex-direction: column;
+}
+
+.align-itens-4-pop-up{
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Poppins-Regular';
+    font-weight: 200;
+    width: 21vw;
+}
+
+.align-itens-5-popup{
+    display: flex;
+    align-items: center;
+}
+
+
+.nome-prod-popup{
+    font-family: 'Poppins-Regular';
+    font-weight: 200;
+}
+
+.preco-prod{
+    font-family: 'Poppins-Regular';
+    font-weight: 200;
+}
+
+.img-popup{
+    min-width: 200px;
+    height: 200px;
+    max-width: 210px;
+    width: 100%;
+}
+
+}
+
+:root {
+    --toastify-color-light: #fff;
+    --toastify-color-dark: #121212;
+    --toastify-color-info: #3498db;
+    --toastify-color-success: #a83f37;
+    --toastify-color-warning: #e56;
+    --toastify-color-error: #a83f37;
+    --toastify-color-transparent: rgba(255, 255, 255, 0.7);
+  
+    --toastify-icon-color-info: var(--toastify-color-info);
+    --toastify-icon-color-success: var(--toastify-color-success);
+    --toastify-icon-color-warning: var(--toastify-color-warning);
+    --toastify-icon-color-error: var(--toastify-color-error);
+  
+    --toastify-toast-width: 320px;
+    --toastify-toast-background: #fff;
+    --toastify-toast-min-height: 64px;
+    --toastify-toast-max-height: 800px;
+    --toastify-font-family: sans-serif;
+    --toastify-z-index: 9999;
+  
+    --toastify-text-color-light: #757575;
+    --toastify-text-color-dark: #fff;
+  
+    //Used only for colored theme
+    --toastify-text-color-info: #fff;
+    --toastify-text-color-success: #fff;
+    --toastify-text-color-warning: #fff;
+    --toastify-text-color-error: #fff;
+  
+    --toastify-spinner-color: #616161;
+    --toastify-spinner-color-empty-area: #e0e0e0;
+  
+    // Used when no type is provided
+    // toast("**hello**")
+    --toastify-color-progress-light: linear-gradient(
+      to right,
+      #4cd964,
+      #5ac8fa,
+      #007aff,
+      #34aadc,
+      #5856d6,
+      #ff2d55
+    );
+    // Used when no type is provided
+    --toastify-color-progress-dark: linear-gradient(
+        to right,
+        #c65951,
+        #a83f37,
+        #9d4942,
+        #a52a2a ,
+        #b63329,
+        #a52a2a,
+        #86322c
+      );
+    --toastify-color-progress-info: var(--toastify-color-info);
+    --toastify-color-progress-success: var(--toastify-color-success);
+    --toastify-color-progress-warning: var(--toastify-color-warning);
+    --toastify-color-progress-error: var(--toastify-color-error);
+  }

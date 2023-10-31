@@ -1,0 +1,156 @@
+.pagamento{
+    background-color: #1f1f1f;
+    height: 100vh;
+
+     .content-pagamento{
+        display: flex;
+        flex-direction: row;
+        height: 85vh;
+        width: 90vw;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .align-itens-input-pag{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        align-items: center;
+    }
+
+    .inputs-pagamento{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50vw;
+        height: 30vh;
+        flex-direction: column;
+    }
+
+    .input-pag{
+        border-radius: 5px;
+        height: 1.4rem;
+        width: 13rem;
+        border: 2px #1f1f1f;
+    }
+    
+    .inputs-pagamento p{
+        font-family: 'Arya-Regular';
+        color: #fff;
+    }
+
+    .frete-pagamento{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        padding-top: 20px;
+        justify-content: space-around;
+        width: 30vw;
+
+        select{
+        text-align: center;
+        border-radius: 5px;
+        height: 1.4rem;
+        width: 7rem;
+        border: 2px #1f1f1f;
+        }
+    }
+
+    .align-inputs-pagamento{
+        display: flex;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 50vw;
+    }
+
+    .rccs__card {
+        width: 250px;
+    }
+    .bt-pagamento{
+        margin-top: 2em;
+        border: 1px solid rgb(232, 68, 68);
+        width: 13vw;
+        border-radius: 20px;
+        padding: 6px;
+        background-color: #000000;
+        font-family: 'Poppins-Regular';
+        font-size: 13px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .bt-pagamento:hover{
+        margin-top: 2em;
+        border: 2px solid rgb(0, 0, 0);
+        width: 13vw;
+        border-radius: 20px;
+        padding: 6px;
+        background-color: #5e0000;
+        font-family: 'Poppins-Regular';
+        font-size: 13px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+
+    .align-bt-pagamento{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 35vw;
+    }
+
+    .trigger-input{
+        display: none;
+    }
+
+    .botao-voltar-endereco{
+        margin-left: 35em;
+    }    
+}
+
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.modal {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content-pagamento {
+    margin-top: 4em;
+    margin-left: 19em;
+    line-height: 1.4;
+    background: #1f1f1f;
+    padding: 14px 28px;
+    border-radius: 15px;
+    border: 3px solid #A83F37;
+    width: 54vw;
+    height: 60vh;
+    overflow: auto;
+}
+
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
